@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+    }
+p{
+    border: 1px solid green
+}
+.margin{ 
+    margin: 16px;
+
+}
+.margin-x{ 
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+.margin-y{
+    margin-right: 16px;
+    margin-left: 16px
+
+}
+.padding{
+    padding: 16px;
+}
+.padding-x{ 
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+.padding-y{
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+.margin-auto{ 
+    width: 50%;
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.box{
+    height: 100px; width: 40%;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 5% ;
+    margin-bottom: 5%;
+    background-color: #333333;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+
+}
+.w-90{
+    width: 90%;
+}
+.display{
+    border: 1px solid red
+
+}
+.d-block{
+    display: block;
+
+}
+.d-inline{
+    display:inline;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.relative{
+    height: 400px; width: 400px;
+    background-color: #333333;
+    position: relative;
+    top: none;
+    left: 100px;
+
+}
+.absolute{
+    position: absolute;
+    height: 100px; width: 100px;
+    background-color: #cccccc;
+    top: 150px; left: 150px;
+
+}
+.fixed{
+    height: 50px; width: 100%;
+    background-color: blue; text-decoration-color: white;
+    position: fixed;
+    top: 0; left: 0;
+
+}
+
+
+/* 
+
+
+
+
+22) selector: all elements with the class of relative declarations: set height and width to 400 pixels, set background color to hex #333333, set position to relative, set top to none, set left ot 100 pixels
+23) selector: all elements with the class of absolute declarations: set position to absolute, set height and width to 100 pixels, set background color to #cccccc, set top and left to 150 pixels
+24) selector: all element with the class of fixed declarations: set height to 50 pixels, set width to 100%, set background color to blue, set text color to white (++ if it is in hex), set position to fixed, set top to 0, set left to 0./*
