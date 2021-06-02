@@ -100,11 +100,3 @@ p{
 }
 
 
-/* 
-
-
-
-
-22) selector: all elements with the class of relative declarations: set height and width to 400 pixels, set background color to hex #333333, set position to relative, set top to none, set left ot 100 pixels
-23) selector: all elements with the class of absolute declarations: set position to absolute, set height and width to 100 pixels, set background color to #cccccc, set top and left to 150 pixels
-24) selector: all element with the class of fixed declarations: set height to 50 pixels, set width to 100%, set background color to blue, set text color to white (++ if it is in hex), set position to fixed, set top to 0, set left to 0./*
