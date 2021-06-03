@@ -1,0 +1,46 @@
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* 
+
+MEDIA QUERIES
+6) selector: all elements with the class of "box" declarations: width set to 40% of the parent container, height set to 25 viewport heights, background set to #333333, margin of 5% of the parent container
+7) selector: all elements with the class of "div-1" declarations: set the element to float to the left
+8) selector: all elements with the class of "div-2" declarations: set the element to float to the right
+9) selector: all elements with the class of "clr" declarations: clear both left and right floated elements
+10) Write a media query that takes effect on screen sizes 500 pixels and less
+A) selector: all elements with the class of "div-1" or "div-2" declarations: set float to none
+
+REM & EM
+11) selector: all elements with the class of "remAndEm" declarations: font size should be 20 pixels
+12) selector: an element with the id of "em" declarations: set font size to 1.2 em
+13) selector: an element with the id of "rem" declarations: set font size to 1.2 rem
+NOTE: notice how the first paragraph is larger as it is 1.2 * 20 while the second paragraph is smaller at 1.2 * 16
+14) selector: select the root element, this is a weird one so the selector is ":root" declarations: set font size to 20 pixels
+NOTE: notice that now the first and second paragraph are the same size because the root font size is not 16 pixels it is 20 pixels, which equates to 1.2 * 20, the same as the top paragraph
+
+VW & VH
+15) selector: all elements with the class of "border-red" declarations: set a 1 pixel solid red border
+16) selector: all elements with the class of "border-blue" declarations: set a 1 pixel solid blue border
+17) selector: all elements with the class of "vh-100" declarations: set height to 100% of the viewport
+18) selector: all element with the class of "h-50" declarations: set height to 50% of the parent container
+NOTE: notice how if you adjust the "vh-100" class to a lower value like 50vh instead of 100vh that the child div will take 50% of the parent container. e.g. 50% of 100vh is 50vh and 50% of 50vh is 25vh
+
+Advanced Selectors
+19) selector: all paragraphs that are direct children of div's declarations: set the text color to blue
+20) selector: all sections that come immediately after a div declarations: set the text color to green
+21) selector: all inputs with the type attribute of email declarations: set border color to red
+
+Github
+22) Push your changes to github
+23) Open a pull request from your "practice" branch into your "main" branch
+25) Merge the pull request
+/*
