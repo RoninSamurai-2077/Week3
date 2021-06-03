@@ -16,7 +16,10 @@
 .clr{
     clear:both
 }
-@media screen { 500px
+@media screen and (max-width: 500px) { 
+    .div-1,.div-2{
+        float: none;
+    }
     
 }
 
@@ -45,25 +48,13 @@
 .h-50{
     height: 50%;
 }
-div p{
+div > p{
     text-decoration-color: blue;
+}
+div section{
+    color:green
 }
 input{
     border: red;
 }
 
-/* 
-10) Write a media query that takes effect on screen sizes 500 pixels and less
-A) selector: all elements with the class of "div-1" or "div-2" declarations: set float to none
-
-
-Advanced Selectors
-19) selector: all paragraphs that are direct children of div's declarations: set the text color to blue
-20) selector: all sections that come immediately after a div declarations: set the text color to green
-21) selector: all inputs with the type attribute of email declarations: set border color to red
-
-Github
-22) Push your changes to github
-23) Open a pull request from your "practice" branch into your "main" branch
-25) Merge the pull request
-/*
