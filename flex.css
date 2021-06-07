@@ -1,0 +1,120 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', sans-serif; background-color: #333;
+}
+.container{
+    max-width: 1200px;margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.btn{
+    padding-top: 0.5rem;padding-bottom: 0.5rem;
+    padding-left: 2rem;padding-right: 2rem;
+    border: none; 
+}
+.btn-lg{
+    padding-top: 1rem;padding-bottom: 1rem;
+    padding-left: 4rem;padding-right: 4rem;
+    font-size: 1.2rem;border-radius: 25px;
+    cursor: pointer;
+}
+.bth:hover{
+    background-color: #333; text-emphasis-color: white;
+}
+nav{
+    position: fixed;
+    top: 0%;left: 0%;
+    width: 100%;height: 50px;
+    background-color: white; z-index: 1;
+}
+
+div{
+    height: 100%;
+    display: flex;
+    justify-content: space-between; align-items: center;
+}
+h1,div,nav{ 
+    cursor: pointer;
+}
+h1,div,nav:hover{
+    color: green;
+}
+ul,div,nav{
+    display: flex;
+    justify-content: center;align-items: center;
+    list-style-type: none;
+}
+li,ul,div,nav{
+    padding-top: 0.2rem; padding-bottom:0.2rem;
+    padding-right: 1rem;padding-left: 1rem;
+    cursor: pointer;
+}
+li,ul,div,nav:hover{
+    text-emphasis-color: green;
+}
+#showcase{
+    height: 100vh; background-color: green;
+    text-emphasis-color: white; display: flex;
+}
+div, #showcase{
+    height: 100%; width: 100%;
+    display: flex;
+    flex-direction: column; justify-content: center;align-items: center;
+}
+h1,div,#showcaes{
+    font-size: 3.5rem;margin-bottom: 1rem;
+}
+p,div,#showcaes{
+    font-size: 1.25rem;
+    padding-top: 0%;padding-bottom: 0%;
+    padding-left: 10rem;padding-right: 10rem;
+    justify-content: center; align-items: center
+    margin-bottom: 1rem;
+}
+#card{
+    height: 100vh; background-color: blue;
+    text-emphasis-color: white;
+    display: flexbox;
+}
+div, .container, #cards{
+    display: flex;
+    justify-content: center; align-items: center
+}
+/* INSTRUCTIONS:
+# UTILITY CLASSES
+================
+*6. SELECTOR: all elements with the class of "btn" on the "hover" event HINT: pseudo selectors DECLARATIONS: set background to off black, set text to white
+# NAVIGATION STYLING
+====================
+*14. SELECTOR: the last li elements inside of a ul inside of a div inside inside of a nav DECLARATIONS: set padding on the right to 0
+# CARDS
+========
+22. SELECTOR: all elements with the class of "card" inside of an element with the id of "cards" DECLARATIONS: set padding all the way around to 2 rem, set margin to 0 on the top & bottom, set margin to 1 rem on the left & right, set height to 60% of the parent container, set flex-items to display as a column, set the flex-items to align "space-around" on the vertical axis (remember the axis flip), set the flex-items ot align "center" on the horizontal axis, set text to align to the center, set the border to have a 3 px solid white, set the corners to be rounded 5 px
+23. SELECTOR: all i elements inside of div's inside of an element with the class of "card" inside of an element with the id of "cards" DECLARATIONS: set font size to 2.5 rem, set margin bottom to 1.5 rem
+24. SELECTOR: all elements with the class of "lead" in a div, in an element with the class of "card", in an element with the id of "cards" DECLARATIONS: set text to be aligned center, font size 1.7 rem, set text to bold, set margin bottom to 1 rem
+25. SELECTOR: all paragraph elements in a div, in an element with the class of "card", in an element with the id of "cards" DECLARATIONS: set text to align justify
+
+# FOOTER STYLING
+================
+26. SELECTOR: all footer elements DECLARATIONS: set background to off black, set text color to white
+27. SELECTOR: all elements with the class of "container" inside a footer element DECLARATIONS: set flex direction to column, set flex-items to align center on the horizontal & vertical axis
+28. SELECTOR: all h3 elements in a an element with the class of "container", in a footer element DECLARATIONS: set margin on the top & bottom to 2 rem and 0 on the left & right
+29. SELECTOR: all paragraphs in an element with the class of "container", in a footer element DECLARATIONS: set margin bottom to 1 rem
+30. SELECTOR: all a elements in an element with the class of "container", in a footer element DECLARATIONS: set the text color to white, set margin bottom to 1 rem
+
+# MEDIA QUERIES (NOT REQUIRED)
+=============================
+31. MEDIA QUERY: all screen sizes 500 px wide and below
+A. SELECTOR: the root element DECLARATIONS: set font size to 10 px
+B. SELECTOR: all elements with the class of "container" DECLARATIONS: set max-width to 350px
+C. SELECTOR: all paragraphs in an element with the class of "container" in an element with the id of "showcase" DECLARATIONS: set padding to 0 on the top & bottom and 3 rem on the left and right
+D. SELECTOR: all elements with the class of "container" in an element with the id of "cards" DECLARATIONS: set flex direction to column, set margin bottom to 1 rem
+E. SELECTOR: all elements with the class of "card" in an element with the id of "cards" DECLARATIONS: set height to 30% of the parent container
+
+32. MEDIA QUERY: all screen sizes 500 px tall and shorter
+A. SELECTOR: an element with the class of "cards" DECLARATIONS: set height to 300% of the viewport height
+B. SELECTOR: all elements with the class of "container" in an element with the id of "cards" DECLARATIONS: set flex direction to column, set margin bottom to 1 rem
+C. SELECTOR: set all elements with the class of "card" in an element with the id of "cards" DECLARATIONS: set height to 30% of the parent container.
